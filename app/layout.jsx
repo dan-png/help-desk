@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       
-      <body className={rubik.className}>
+      <body className={rubik.className} suppressHydrationWarning={true}>
         <Navbar/>
         {children}
       </body>
